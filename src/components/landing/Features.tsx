@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FEATURES } from "./content";
 import { Reveal } from "./Reveal";
 
-const EASE = [0.22, 1, 0.36, 1];
+const EASE = [0.22, 1, 0.36, 1] as const;
 
 const ACCENT = {
   indigo: "bg-indigo-50 text-indigo-600 group-hover:bg-indigo-600 group-hover:text-white",

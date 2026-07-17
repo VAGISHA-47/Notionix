@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { MANIFESTO } from "./content";
 import { Reveal } from "./Reveal";
 
-const EASE = [0.22, 1, 0.36, 1];
+const EASE = [0.22, 1, 0.36, 1] as const;
 
 export const Manifesto: React.FC = () => (
   <section id="manifesto" className="relative py-28 md:py-36">

@@ -4,7 +4,7 @@ import { Check } from "lucide-react";
 import { PLANS } from "./content";
 import { Reveal } from "./Reveal";
 
-const EASE = [0.22, 1, 0.36, 1];
+const EASE = [0.22, 1, 0.36, 1] as const;
 
 interface PricingProps {
   onSelectPlan: (plan: string) => void;

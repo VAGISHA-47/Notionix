@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import type { HTMLMotionProps } from "framer-motion";
 
-const EASE = [0.22, 1, 0.36, 1];
+const EASE = [0.22, 1, 0.36, 1] as const;
 
 interface RevealProps extends HTMLMotionProps<"div"> {
   children: React.ReactNode;

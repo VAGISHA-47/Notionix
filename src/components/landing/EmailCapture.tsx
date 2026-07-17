@@ -31,6 +31,7 @@ export const EmailCapture: React.FC<EmailCaptureProps> = ({
       return;
     }
     setState("loading");
+    console.log("Submitting lead:", { email, source, plan });
     
     // Simulate successful subscription
     setTimeout(() => {
